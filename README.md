@@ -2,7 +2,7 @@
 
 Text Claude Code from your phone. Send a Telegram message, Claude does the work, sends you back the result.
 
-This is the starter code from [I texted Claude Code from my phone before it was cool](https://github.com/philmcneely/claude-telegram-bot).
+This is the starter code from [I texted Claude Code from my phone before it was cool](https://medium.com/@philmcneely/i-texted-claude-code-from-my-phone-before-it-was-cool-719daca22a7c).
 
 ## What it does
 
