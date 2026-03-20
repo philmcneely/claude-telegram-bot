@@ -1,0 +1,12 @@
+[Unit]
+Description=Claude Code Telegram Bot
+
+[Service]
+ExecStart=/usr/bin/python3 /path/to/claude-telegram-bot/bot.py
+Restart=always
+RestartSec=5
+Environment=TELEGRAM_BOT_TOKEN=YOUR_TOKEN_HERE
+Environment=TELEGRAM_CHAT_ID=YOUR_CHAT_ID
+
+[Install]
+WantedBy=default.target
