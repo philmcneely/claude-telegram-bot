@@ -2,7 +2,7 @@
 
 Text Claude Code from your phone. Send a Telegram message, Claude does the work, sends you back the result.
 
-This is the starter code from [Anthropic just shipped what I built six months ago](https://github.com/philmcneely/claude-telegram-bot).
+This is the starter code from [I texted Claude Code from my phone before it was cool](https://github.com/philmcneely/claude-telegram-bot).
 
 ## What it does
 
