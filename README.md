@@ -76,6 +76,20 @@ tmux attach -t claude    # see the session
 # Press Ctrl+B then D to detach (leave it running)
 ```
 
+**Optional: `claude` shortcut.** Add this to your `~/.bashrc` or `~/.zshrc` so you can type `claude` to jump into your session:
+
+```bash
+claude() {
+  tmux attach -t claude 2>/dev/null || \
+    (tmux new-session -d -s claude -x 200 -y 50 && \
+     tmux send-keys -t claude 'claude --dangerously-skip-permissions' Enter && \
+     sleep 2 && \
+     tmux attach -t claude)
+}
+```
+
+Attaches to an existing session or creates a new one. One command. To remove it later, delete those lines and run `source ~/.zshrc`.
+
 ### 5. Start the bot
 
 In a separate terminal:
